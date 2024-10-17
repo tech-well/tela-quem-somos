@@ -1,0 +1,161 @@
+@media (max-width: 18.75rem) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+
+    .iconperfil {
+        display: none;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        position: relative;
+        width: 17rem;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .email>a {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .email>a>p {
+        font-size: 0.8rem;
+        color: black;
+    }
+
+    .logofooter{
+        width: 17rem;
+    }
+
+    
+
+
+}
+
+@media(max-width:31.25rem) and (min-width:18.76rem) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .iconperfil {
+        display: none;
+    }
+
+    .email {
+
+        align-self: center;
+        position: relative;
+        width: 17rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+       
+    }
+
+
+    .email>a {
+        display: flex;
+        align-items: center;
+    }
+
+    .email>a>p{
+        color: black;
+    }
+
+
+    .logofooter{
+        width: 17rem;
+    }
+}
+
+@media(max-width:40.6rem) and (min-width:31.6rem){
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .iconperfil {
+        display: none;
+    }
+
+    .email {
+
+        align-self: center;
+        position: relative;
+        width: 21rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      
+       
+    }
+
+
+    .email>a {
+        display: flex;
+        align-items: center;
+    }
+
+    .email>a>p{
+        color: black;
+    }
+}
+
+@media(max-width:68.7rem) and (min-width:40.6rem){
+
+#input__busca{
+    border: solid 1px red;
+    width: 100px;
+    }
+
+#input__pesquisa{
+    width: 100px;
+}
+
+.cabecalho{
+    display: flex;
+    border: solid 1px red;
+  }
+
+.iconperfil{
+    border: solid 1px red;
+}
+
+.cabecalho>a{
+    border: solid 1px red;
+}
+
+.logo{
+    border: solid 1px red;
+}
+}

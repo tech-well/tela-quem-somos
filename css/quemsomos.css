@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --cor1: #a47c4c;
+    --cor2: #f3ebd3;
+    --cor3: #2c1c04;
+    --cor4: #ac8454;
+    --cor5: #d4ccb4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: var(--cor5);
+    width: 100%;
+}
+
+
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 0.4rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5 {
+    padding: 1%;
+
+
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: 1rem;
+
+
+}
+
+.pesquisa {
+    background-color: var(--cor2);
+    border: solid var(--cor2) 0.2rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 20%;
+
+}
+
+
+
+.txtbusca {
+    background-color: transparent;
+    border: none;
+    flex-grow: 3;
+    min-width: 9.375rem;
+    width: 100%;
+
+}
+
+.lupa {
+    width: 1.5rem;
+}
+
+.perfil {
+    margin: auto;
+}
+
+.iconperfil {
+    width: 4rem;
+}
+
+main {
+    margin-top: 6.8rem;
+}
+
+
+
+/* inicio estilização fundo madeira */
+.quemsomos {
+    width: 100%;
+    height: 200PX;
+    background-image: url(/projeto_integrador/img/fundo_madeira.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: var(--cor5);
+    font-size: 3.1rem;
+    justify-content: right;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+
+
+}
+
+.quemsomos>p {
+
+    padding: 40.6px 97.6px 16px 0;
+
+}
+
+/* /////////////////////////////////////////////////////////////fim estilização fundo madeira ////////////////////////////////////// */
+
+/* inicio estilização container */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container img{
+    width: 95%;
+    opacity: 0.5;
+    margin: 0 auto;}
+
+
+
+
+article {
+    width: 90%;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    position: relative;
+    bottom: 900px;
+    text-align: justify;
+    margin: auto;
+    
+  
+    }
+
+
+
+.description {
+    width: 100%;
+    padding: 25.6px;
+    font-weight: 400;
+    font-size: 45px;
+    color: var(--cor3);
+   
+   
+    
+    }
+
+
+.valores {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    background-color: var(--cor5);
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: -480px;
+}
+
+.valores__divs {
+    width: 26.8rem;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 2.1rem;
+    color: var(--cor3);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.valores__divs p {
+    text-align: left;
+}
+
+ul li {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo {
+    display: flex;
+    background-color: #f3ecd4;
+    color: #2c1c04;
+    font-family: "Montserrat";
+    font-weight: bold;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.logofooter {
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+.contatos,
+.endereco,
+.formapag {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.imgpagamento {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contatos,
+.formapag,
+.endereco {
+    margin-top: 1.875rem;
+}
+
+.icone {
+    width: 1.5625rem;
+}
+
+.cadastrar {
+    background-color: #a47c4c;
+    border: 0.125rem solid #2c1c04;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #2c1c04;
+}
+
+.conta {
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #a37c4c;
+}
+
+.icon {
+    position: fixed;
+    bottom: 3.75rem;
+    right: 1.875rem;
+    font-size: 1.875rem;
+    background-color: #01e675;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.1875rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 0.125rem 0.125rem 0.125rem #c0bdbd;
+}
+
+.icon .fab {
+    padding-top: 0.5625rem;
+}
+
+.icon:hover {
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 0.125rem 0.125rem 1.25rem #5fe690;
+}
